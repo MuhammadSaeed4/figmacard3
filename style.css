@@ -1,0 +1,53 @@
+body{
+    background-image:url(image/image\ 33.png)
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 10px;
+    gap: 120px;
+    font-size: 25px;
+    
+}
+.header>div>ul{
+    list-style-type: none;
+    display: flex;
+    color: white;
+    text-align: center;
+    gap: 40px;
+}
+
+
+div>button{
+    font-size: 15px;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 5px 20px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    height: 26px;
+    width: 116px;
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+
+
+}
+p{
+    text-align: center;
+    color: white;
+
+}
+.two{
+    text-align: center;
+    padding: 20px 30px;
+    
+}
